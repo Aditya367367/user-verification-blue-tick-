@@ -1,1 +1,63 @@
-env
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django migrations
+**/migrations/
+!**/migrations/__init__.py
+
+# Environment variables
+.env
+.env.*
+
+# SQLite database
+db.sqlite3
+
+# Media files (uploads)
+media/
+
+# Logs
+*.log
+
+# VSCode
+.vscode/
+
+# Mac/Linux/Windows system files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+.cache
+nosetests.xml
+*.cover
+
+# Static file cache
+staticfiles/
+static/
+
+# Pycharm
+.idea/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pip tools
+pip-log.txt
+pip-delete-this-directory.txt
